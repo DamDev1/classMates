@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: red;
+}
+
+.container{
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.inputContainer{
+    background: blue;
+    padding: 30px;
+    margin-top: 10%;
+}
+
+.inputContainer input{
+    padding: 20px;
+    font-size: 18px;
+    width: 90%;
+    align-items: center;
+}
+
+.inputContainer button{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.imageAndTextContainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.imagesContainer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.imagesContainer .images{
+    width: 100%;
+    height: 50vh;
+    display: none;
+    
+}
+
+.imagesContainer #one{
+    background: url("./images/Ataga.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagesContainer #two{
+    background: url("./images/Chiamaka.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagesContainer #three{
+    background: url("./images/fatimah.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagesContainer #four{
+    background: url("./images/felix.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagesContainer #five{
+    background: url("./images/Ikpan.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagesContainer #six{
+    background: url("./images/Janet.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details{
+    margin-left: 20px;
+}
+
+.details p{
+    padding: 10px;
+}
