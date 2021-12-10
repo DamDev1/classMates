@@ -18,6 +18,7 @@ btn.addEventListener("click",function(){
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
     
     if(inputName.includes("Chiamaka")){
@@ -32,6 +33,7 @@ btn.addEventListener("click",function(){
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
 
     if(inputName.includes("Fatimah")){
@@ -46,6 +48,7 @@ btn.addEventListener("click",function(){
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
 
     if(inputName.includes("Felix")){
@@ -60,6 +63,7 @@ btn.addEventListener("click",function(){
         document.getElementById("three").style.display = "none";
         document.getElementById("five").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
 
     if(inputName.includes("Ikpan")){
@@ -74,6 +78,7 @@ btn.addEventListener("click",function(){
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
         document.getElementById("six").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
 
     if(inputName.includes("Janet")){
@@ -88,6 +93,7 @@ btn.addEventListener("click",function(){
         document.getElementById("three").style.display = "none";
         document.getElementById("four").style.display = "none";
         document.getElementById("five").style.display = "none";
+        document.getElementById("dami").style.display = "none";
     }
 
 })
